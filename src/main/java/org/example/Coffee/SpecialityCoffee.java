@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Coffee;
 
 public class SpecialityCoffee extends Coffee {
     private String flavor = "";
@@ -24,5 +24,9 @@ public class SpecialityCoffee extends Coffee {
     
     public String getFlavor() {
       return flavor;
+    }
+
+    public String toString() {
+      return super.toString() + " with " + flavor;
     }
   }
