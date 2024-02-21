@@ -13,6 +13,7 @@ public class SSList extends ArrayList<Integer> {
     super(s);
   }
 
+  //recursive binary search
   public String recBinSearch(Integer t) {
     int index = recBinSearch(t, 0, size() - 1);
     return index == -1 ? "Couldn't find the number " + t + " in the list." : "Found the number " + t + " at index " + index + ".";
@@ -33,6 +34,7 @@ public class SSList extends ArrayList<Integer> {
     }
   }
 
+  //recursive linear search
   public String recLineSearch(Integer t) {
     int index = recLineSearch(0, t);
     return index == -1 ? "Couldn't find the number " + t + " in the list." : "Found the number " + t + " at index " + index + ".";
@@ -48,6 +50,7 @@ public class SSList extends ArrayList<Integer> {
     }
   }
 
+  //recursive selection sort
   public void recSelecSort() {
     if(Boolean.FALSE.equals(sortChecker())) {
       System.out.println("Iteration " + 0 + ": " + this); //print
@@ -73,6 +76,7 @@ public class SSList extends ArrayList<Integer> {
     }
   }
 
+  //bogo sort
   public void bogoSort() {
     int i = 1;
     while (Boolean.FALSE.equals(sortChecker())) {
