@@ -1,4 +1,4 @@
-package org.example;
+package org.example.math;
 
 import org.apache.commons.math3.analysis.polynomials.PolynomialFunction;
 import org.apache.commons.math3.analysis.solvers.LaguerreSolver;

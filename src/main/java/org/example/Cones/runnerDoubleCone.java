@@ -51,5 +51,7 @@ public class runnerDoubleCone {
       }
       System.out.println(c);
     }
+
+    scan.close();
   }
 }

@@ -43,5 +43,7 @@ public class runnerCoffee
     {
       System.out.println(c);
     }
+
+    scan.close();
   }
 }
