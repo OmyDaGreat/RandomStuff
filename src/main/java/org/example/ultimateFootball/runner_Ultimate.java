@@ -68,5 +68,6 @@ public class runner_Ultimate{
         }
       }
     }
+    scan.close();
   }
 }
