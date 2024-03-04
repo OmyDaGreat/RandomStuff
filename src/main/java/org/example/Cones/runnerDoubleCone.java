@@ -21,7 +21,6 @@ public class runnerDoubleCone {
       String t = scan.nextLine();
       c = new DoubleCone(f, w);
       c.addTopping(t);
-      
     } else {
       System.out.println("First flavour?");
       String f1 = scan.nextLine();
@@ -35,7 +34,7 @@ public class runnerDoubleCone {
 
     System.out.println(c);
     System.out.println("Change flavors? (y/n)");
-    if(scan.nextLine().toLowerCase().equals("y")) {
+    if (scan.nextLine().toLowerCase().equals("y")) {
       System.out.println("Type \"s\" for same flavors, \"d\" for different.");
       String mtd = scan.nextLine().toLowerCase();
       if (mtd.equals("s")) {

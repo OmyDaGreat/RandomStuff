@@ -9,11 +9,16 @@ import org.apache.commons.math3.exception.TooManyEvaluationsException;
 
 public class PolynomialSolver {
 
-    private PolynomialSolver() {
-        throw new IllegalStateException("Utility class");
-    }
+  private PolynomialSolver() {
+    throw new IllegalStateException("Utility class");
+  }
 
-    public static Complex[] solvePolynomial(double[] coefficients) throws NullArgumentException, NoDataException, TooManyEvaluationsException {
-        return new LaguerreSolver().solveAllComplex(new PolynomialFunction(coefficients).getCoefficients(), 0);
-    }
+  public static Complex[] solvePolynomial(double[] coefficients)
+    throws NullArgumentException, NoDataException, TooManyEvaluationsException {
+    return new LaguerreSolver()
+      .solveAllComplex(
+        new PolynomialFunction(coefficients).getCoefficients(),
+        0
+      );
+  }
 }
