@@ -17,7 +17,7 @@ public class For {
   }
 
   public static void main(String[] args) {
-    rewindTime(5, x -> {
+    rewindTime(5, (x) -> {
       System.out.println("Hello world: " + x);
     });
   }
