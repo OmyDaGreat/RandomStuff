@@ -1,4 +1,4 @@
-package org.example.zother;
+package org.example.scraping;
 
 import java.net.URI;
 import java.net.http.HttpClient;

@@ -1,4 +1,4 @@
-package org.example.zother.pointer;
+package org.example.pointer;
 
 public class IntObj {
 
