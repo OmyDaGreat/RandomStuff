@@ -14,12 +14,12 @@ public class SSList extends ArrayList<Integer> {
     super(s);
   }
 
-  //recursive binary search
+  // recursive binary search
   public String recBinSearch(Integer t) {
     int index = recBinSearch(t, 0, size() - 1);
     return index == -1
-      ? "Couldn't find the number " + t + " in the list."
-      : "Found the number " + t + " at index " + index + ".";
+        ? "Couldn't find the number " + t + " in the list."
+        : "Found the number " + t + " at index " + index + ".";
   }
 
   public Integer recBinSearch(Integer t, Integer min, Integer max) {
@@ -37,12 +37,12 @@ public class SSList extends ArrayList<Integer> {
     }
   }
 
-  //recursive linear search
+  // recursive linear search
   public String recLineSearch(Integer t) {
     int index = recLineSearch(0, t);
     return index == -1
-      ? "Couldn't find the number " + t + " in the list."
-      : "Found the number " + t + " at index " + index + ".";
+        ? "Couldn't find the number " + t + " in the list."
+        : "Found the number " + t + " at index " + index + ".";
   }
 
   public Integer recLineSearch(Integer i, Integer t) {
@@ -55,13 +55,13 @@ public class SSList extends ArrayList<Integer> {
     }
   }
 
-  //recursive selection sort
+  // recursive selection sort
   public void recSelecSort() {
     if (Boolean.FALSE.equals(sortChecker())) {
-      System.out.println("Iteration " + 0 + ": " + this); //print
+      System.out.println("Iteration " + 0 + ": " + this); // print
       recSelecSort(0);
     } else {
-      System.out.println("Already sorted.."); //print
+      System.out.println("Already sorted.."); // print
     }
   }
 
@@ -76,23 +76,23 @@ public class SSList extends ArrayList<Integer> {
       Integer temp = get(mini);
       set(mini, get(start));
       set(start, temp);
-      System.out.println("Iteration " + (start + 1) + ": " + this); //print
+      System.out.println("Iteration " + (start + 1) + ": " + this); // print
       recSelecSort(start + 1);
     }
   }
 
-  //bogo sort
+  // bogo sort
   public void bogoSort() {
     int i = 1;
     while (Boolean.FALSE.equals(sortChecker())) {
       scramble();
       if (i % 2 == 1) {
-        System.out.println("Iteration " + i + ": " + this); //print
+        System.out.println("Iteration " + i + ": " + this); // print
       }
       i++;
     }
-    System.out.println("Iteration " + (i - 1) + ": " + this); //print
-    System.out.println("Sorted in " + (i - 1) + " scrambles!"); //print
+    System.out.println("Iteration " + (i - 1) + ": " + this); // print
+    System.out.println("Sorted in " + (i - 1) + " scrambles!"); // print
   }
 
   public void scramble() {
@@ -116,11 +116,9 @@ public class SSList extends ArrayList<Integer> {
   }
 
   public Boolean sortChecker() {
-    if (
-      get(0) <= get(size() - 1) &&
-      get(size() / 2) <= get(size() - 1) &&
-      get(0) <= get(size() / 2)
-    ) {
+    if (get(0) <= get(size() - 1)
+        && get(size() / 2) <= get(size() - 1)
+        && get(0) <= get(size() / 2)) {
       for (int i = 0; i < size() - 1; i++) {
         if (get(i) > get(i + 1)) {
           return false;

@@ -9,8 +9,7 @@ public class runnerCoffee {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println(
-      "Choose constructor to test:\n1 - SpecialityCoffee()\n2 - SpecialityCoffee(String size, String type, String flavor)\n3 - SpecialityCoffee(String size, boolean isSkinny, int shots, String type, String flavor)"
-    );
+        "Choose constructor to test:\n1 - SpecialityCoffee()\n2 - SpecialityCoffee(String size, String type, String flavor)\n3 - SpecialityCoffee(String size, boolean isSkinny, int shots, String type, String flavor)");
     int which = scan.nextInt();
     if (which == 1) {
       c = new SpecialityCoffee();
@@ -25,11 +24,7 @@ public class runnerCoffee {
       if (which == 3) {
         System.out.println("Is Skinny (y/n)?");
         String sk = scan.nextLine().toLowerCase();
-        boolean iS =
-          (sk.equals("y") ||
-            sk.equals("yes") ||
-            sk.equals("t") ||
-            sk.equals("true"));
+        boolean iS = (sk.equals("y") || sk.equals("yes") || sk.equals("t") || sk.equals("true"));
         System.out.println("Shots?");
         int sh = scan.nextInt();
         c = new SpecialityCoffee(sz, iS, sh, tp, fl);

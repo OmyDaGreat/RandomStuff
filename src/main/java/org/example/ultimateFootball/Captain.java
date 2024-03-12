@@ -4,12 +4,7 @@ public class Captain extends UltimatePlayer {
 
   private final boolean off;
 
-  public Captain(
-    String firstName,
-    String lastName,
-    String position,
-    Boolean type
-  ) {
+  public Captain(String firstName, String lastName, String position, Boolean type) {
     super(firstName, lastName, position);
     this.off = type;
   }

@@ -12,14 +12,12 @@ public class runner_Ultimate {
     String ins = "";
     while (!ins.equals("q")) {
       System.out.println(
-        "\nWhat do you want to do?\np - make a person\nt - make a team from the current player/coach lists\nq - quit"
-      );
+          "\nWhat do you want to do?\np - make a person\nt - make a team from the current player/coach lists\nq - quit");
       ins = scan.nextLine().toLowerCase();
       if (ins.equals("p")) {
         Person p;
         System.out.println(
-          "\nWhich class do you want to use?\np - Person\nu - UltimatePlayer\nc - Captain\no - Coach"
-        );
+            "\nWhich class do you want to use?\np - Person\nu - UltimatePlayer\nc - Captain\no - Coach");
         String cls = scan.nextLine().toLowerCase();
         System.out.println("First name?");
         String fn = scan.nextLine();
@@ -34,30 +32,23 @@ public class runner_Ultimate {
             p = new Captain(fn, ln, ps, tp);
           } else p = new UltimatePlayer(fn, ln, ps);
           players.add((UltimatePlayer) p);
-          System.out.println(
-            "\n" + fn + " " + ln + " was added to the players list."
-          );
+          System.out.println("\n" + fn + " " + ln + " was added to the players list.");
         } else if (cls.equals("o")) {
           System.out.println("Role?");
           String rl = scan.nextLine();
           p = new Coach(fn, ln, rl);
           coaches.add((Coach) p);
-          System.out.println(
-            "\n" + fn + " " + ln + " was added to the coaches list."
-          );
+          System.out.println("\n" + fn + " " + ln + " was added to the coaches list.");
         } else {
           p = new Person(fn, ln);
           System.out.println(
-            "\nSorry, only UltimatePlayers, Captains and Coaches can be added to the team."
-          );
+              "\nSorry, only UltimatePlayers, Captains and Coaches can be added to the team.");
         }
         System.out.println("\n" + p);
         System.out.println("\nType \"t\" for " + fn + " to throw a disc.");
         if (scan.nextLine().toLowerCase().equals("t")) {
           System.out.println("Enter power level between 1 and 10.");
-          System.out.println(
-            fn + " threw the disc " + p.throwDisc(scan.nextInt()) + " yards."
-          );
+          System.out.println(fn + " threw the disc " + p.throwDisc(scan.nextInt()) + " yards.");
           scan.nextLine();
         }
       } else if (ins.equals("t")) {
@@ -65,8 +56,7 @@ public class runner_Ultimate {
         System.out.println("\nYour team is ready!\n");
         while (!ins.equals("q")) {
           System.out.println(
-            "\nWhat do you want to do?\nc - see the cutters\nh - see handlers\nt = see the whole team\nq - quit"
-          );
+              "\nWhat do you want to do?\nc - see the cutters\nh - see handlers\nt = see the whole team\nq - quit");
           ins = scan.nextLine().toLowerCase();
           if (ins.equals("h")) System.out.println("\n" + t.getHandlers());
           else if (ins.equals("c")) System.out.println("\n" + t.getCutters());

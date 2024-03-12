@@ -14,13 +14,7 @@ public class SpecialityCoffee extends Coffee {
     setFlavor(flavor);
   }
 
-  public SpecialityCoffee(
-    String size,
-    boolean isSkinny,
-    int shots,
-    String type,
-    String flavor
-  ) {
+  public SpecialityCoffee(String size, boolean isSkinny, int shots, String type, String flavor) {
     super(size, isSkinny, shots, type);
     setFlavor(flavor);
   }

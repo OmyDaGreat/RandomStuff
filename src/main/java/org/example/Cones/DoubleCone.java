@@ -29,12 +29,10 @@ public class DoubleCone extends Cone {
   }
 
   public String toString() {
-    return (
-      (getWaffle() ? "double waffle cone " : "double cone ") +
-      (super.getFlavor().equals(f451)
-          ? "with " + f451 + " x2"
-          : "with " + super.getFlavor() + " and " + f451) +
-      (!t.equals("") ? " with " + t : "")
-    );
+    return ((getWaffle() ? "double waffle cone " : "double cone ")
+        + (super.getFlavor().equals(f451)
+            ? "with " + f451 + " x2"
+            : "with " + super.getFlavor() + " and " + f451)
+        + (!t.equals("") ? " with " + t : ""));
   }
 }

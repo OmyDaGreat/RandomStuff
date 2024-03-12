@@ -14,11 +14,8 @@ public class PolynomialSolver {
   }
 
   public static Complex[] solvePolynomial(double[] coefficients)
-    throws NullArgumentException, NoDataException, TooManyEvaluationsException {
+      throws NullArgumentException, NoDataException, TooManyEvaluationsException {
     return new LaguerreSolver()
-      .solveAllComplex(
-        new PolynomialFunction(coefficients).getCoefficients(),
-        0
-      );
+        .solveAllComplex(new PolynomialFunction(coefficients).getCoefficients(), 0);
   }
 }

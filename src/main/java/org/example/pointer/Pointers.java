@@ -11,7 +11,7 @@ public class Pointers {
 
     x.value = 42; // Dereference x to store 42 in its pointee
 
-    //y.value = 13;   // CRASH -- y does not have a pointee yet
+    // y.value = 13;   // CRASH -- y does not have a pointee yet
 
     y = x; // Pointer assignment sets y to point to x's pointee
 
