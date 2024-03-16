@@ -1,10 +1,4 @@
 
-¨
-java:S1319"eThe type of "array" should be an interface such as "List" rather than the implementation "ArrayList".(£ŠøÌ8å™Ş¢ä1J$9ba94a31-8ca6-476c-af57-68c9a17ea1e2
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êúãÕ8ç™Ş¢ä1J$4aa00d60-cd01-4c32-b137-84d9a68f1413
+›	java:S120"YRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*'.(êúãÕ8ç™Ş¢ä1J$2ec61f16-8b02-4b98-83a5-fd307b031de9
 
-java:S2095"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(´ñÇõ8›šŞ¢ä1J$e98f2265-8ef3-4cf2-9ee5-fe9f45462204
-m	java:S106"+Replace this use of System.out by a logger.(›ì·Ú8¢šŞ¢ä1J$68be50de-1eaa-4d0e-b4cb-154e11b360b4
-r	java:S106"+Replace this use of System.out by a logger.(ƒÜœ‡ùÿÿÿÿ8¥šŞ¢ä1J$a051796e-cd3b-4cc1-96fc-154f15b54051
-r	java:S106%"+Replace this use of System.err by a logger.(îÌİüÿÿÿÿ8©šŞ¢ä1J$0bc7ff7c-2aa1-483a-9947-270a57268e59
-r	java:S106*"+Replace this use of System.err by a logger.(‡šÀµşÿÿÿÿ8ªšŞ¢ä1J$8ad898d0-ad5f-4d09-b89a-a35a39e808ef
+java:S2095"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(´ñÇõ8›šŞ¢ä1J$19be282c-eda5-4344-aefc-b728cd6ea822

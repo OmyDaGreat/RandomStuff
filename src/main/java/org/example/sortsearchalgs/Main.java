@@ -1,4 +1,4 @@
-package org.example.sortingSearching;
+package org.example.sortsearchalgs;
 
 import java.util.*;
 

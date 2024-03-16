@@ -1,8 +1,8 @@
-package org.example.guavaStuff;
+package org.example.guava;
 
 import com.google.common.base.Preconditions;
 
-public class preconditionsTest {
+public class PreconditionsTest {
 
   public static void main(String[] args) {
     for (int i = 0; i < 6; i++) {
