@@ -1,0 +1,7 @@
+
+ 
+java:S1319,"dThe type of "list" should be an interface such as "List" rather than the implementation "ArrayList".(›ÑÑJ$3606ed59-d4e8-48d6-b410-ae6b401aac05
+¬
+java:S13196"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ç€ÚúJ$9ebf74cb-faf6-49d0-badb-36779187b3b9
+k	java:S106E"+Replace this use of System.out by a logger.(ÚèêßúÿÿÿÿJ$5671d43d-819d-403c-b070-bbe572ef4c9e
+k	java:S106G"+Replace this use of System.out by a logger.(¶Š¡ÖşÿÿÿÿJ$4a646357-a3a5-4efb-9902-52012c5c0a3c

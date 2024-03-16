@@ -1,0 +1,14 @@
+
+²
+java:S1319*"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(—¦™ 8×à£ä1J$b7092763-73c6-442f-bb78-e31122c58ee1
+­
+java:S13198"eThe type of "array" should be an interface such as "List" rather than the implementation "ArrayList".(˜ÆÃ´ûÿÿÿÿ8™üä£ä1J$7f84e184-c589-45d5-8a89-f8d02d96382c
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êúãÕ8ßà£ä1J$94179c3c-e418-4f47-89d0-d11770d38722
+
+java:S2095B"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(´ñÇõ8šıä£ä1J$156482a4-7931-4c4e-8c85-6abb494c2ac9
+m	java:S1062"+Replace this use of System.out by a logger.(›ì·Ú8ºıä£ä1J$1830714c-ad9b-4c57-b41c-4c0ae4884fa8
+r	java:S1065"+Replace this use of System.out by a logger.(ƒÜœ‡ùÿÿÿÿ8»ıä£ä1J$c3c911b8-8d7b-43a8-b1fa-1e5b74bd19cc
+r	java:S106H"+Replace this use of System.err by a logger.(îÌİüÿÿÿÿ8Äıä£ä1J$d291a0b6-6d1c-48cb-b3a9-3bd68f6f3f93
+r	java:S106M"+Replace this use of System.err by a logger.(‡šÀµşÿÿÿÿ8Çıä£ä1J$edb98e88-160b-4a2a-be69-326f801dfd2c
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8ìóç£ä1

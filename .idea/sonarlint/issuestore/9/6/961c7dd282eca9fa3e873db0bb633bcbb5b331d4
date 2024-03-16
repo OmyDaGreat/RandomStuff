@@ -1,0 +1,11 @@
+
+²
+java:S1319)"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(—¦™ 8×à£ä1J$f0374bb8-fa6c-4941-833b-908f11b2a63a
+­
+java:S13197"eThe type of "array" should be an interface such as "List" rather than the implementation "ArrayList".(˜ÆÃ´ûÿÿÿÿ8™üä£ä1J$35bdc82e-5bfc-482c-8903-38c3ae80b15f
+
+java:S2095A"MUse try-with-resources or close this "ExecutorService" in a "finally" clause.(´ñÇõ8šıä£ä1J$f84fc99c-793f-41cf-9d48-9a8a206f382f
+m	java:S1061"+Replace this use of System.out by a logger.(›ì·Ú8ºıä£ä1J$03b5d235-7a02-490c-a1ba-e9392e1e4a2d
+r	java:S1064"+Replace this use of System.out by a logger.(ƒÜœ‡ùÿÿÿÿ8»ıä£ä1J$1a1493dc-3509-4fd1-8ba2-2dbaeec24ff1
+r	java:S106G"+Replace this use of System.err by a logger.(îÌİüÿÿÿÿ8Äıä£ä1J$42853e10-c530-4c23-8227-2b2bf20fed20
+r	java:S106L"+Replace this use of System.err by a logger.(‡šÀµşÿÿÿÿ8Çıä£ä1J$6e44175c-1c86-4b59-b34e-2f8734859070
