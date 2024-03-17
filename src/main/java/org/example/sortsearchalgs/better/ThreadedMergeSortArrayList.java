@@ -1,7 +1,6 @@
 package org.example.sortsearchalgs.better;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -33,9 +32,6 @@ public class ThreadedMergeSortArrayList {
 		    Thread.currentThread().interrupt();
 	    } catch (Exception e) {
 		    e.printStackTrace();
-	    } finally {
-		    assert executor != null;
-            executor.close();
 	    }
     }
 

@@ -11,6 +11,7 @@ public class runner_AnagramList
       System.out.println("Warning - this willl result in a LOT of anagrams, please use a shorter String. Remove this check at your own risk!");
       ipt = scan.nextLine();
     }
+    scan.close();
     AnagramList test = new AnagramList(ipt);
     System.out.println("\nAnagrams list:");
     System.out.println(test.getAnagrams());
