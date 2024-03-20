@@ -1,2 +1,2 @@
-22:15:44.701 [main] INFO  org.example.util.ExtensionsTest - pleh
-22:15:44.704 [main] INFO  org.example.util.ExtensionsTest - I Am a Person Not in Pain
+21:38:12.738 [main] INFO  org.example.sortsearchalgs.binaryCompare.Test - Non-recursive: 177900 nanoseconds
+21:38:12.740 [main] INFO  org.example.sortsearchalgs.binaryCompare.Test - Recursive: 93130 nanoseconds
