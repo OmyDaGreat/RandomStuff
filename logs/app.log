@@ -1,2 +1,7 @@
-21:38:12.738 [main] INFO  org.example.sortsearchalgs.binaryCompare.Test - Non-recursive: 177900 nanoseconds
-21:38:12.740 [main] INFO  org.example.sortsearchalgs.binaryCompare.Test - Recursive: 93130 nanoseconds
+18:50:04.087 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
+18:50:05.030 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
+18:50:05.217 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
+18:50:05.391 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
+18:50:05.605 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
+18:50:06.201 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
+18:50:06.340 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
