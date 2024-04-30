@@ -1,7 +1,2 @@
-18:50:04.087 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
-18:50:05.030 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
-18:50:05.217 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
-18:50:05.391 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
-18:50:05.605 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
-18:50:06.201 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
-18:50:06.340 [AWT-EventQueue-0] INFO  org.example.swing.SimpleButton - Button clicked!
+18:45:51.274 [main] INFO  org.example.yeet.WeirdNodes - [org.example.yeet.LinkNode@68e965f5, org.example.yeet.LinkNode@6f27a732, org.example.yeet.LinkNode@6c779568, org.example.yeet.LinkNode@f381794, org.example.yeet.LinkNode@2cdd0d4b] [org.example.yeet.LinkNode@7e9131d5, org.example.yeet.LinkNode@2e1d27ba, org.example.yeet.LinkNode@61d6015a, org.example.yeet.LinkNode@2525ff7e, org.example.yeet.LinkNode@524d6d96]
+18:45:51.277 [main] INFO  org.example.yeet.WeirdNodes - 1 10 2 9 3 8 4 7 5 6 
