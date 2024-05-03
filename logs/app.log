@@ -1,2 +1,1 @@
-22:02:15.528 [main] INFO  org.example.yeet.WeirdNodes - [org.example.yeet.ListNode@68e965f5, org.example.yeet.ListNode@6f27a732, org.example.yeet.ListNode@6c779568, org.example.yeet.ListNode@f381794, org.example.yeet.ListNode@2cdd0d4b] [org.example.yeet.ListNode@7e9131d5, org.example.yeet.ListNode@2e1d27ba, org.example.yeet.ListNode@61d6015a, org.example.yeet.ListNode@2525ff7e, org.example.yeet.ListNode@524d6d96]
-22:02:15.531 [main] INFO  org.example.yeet.WeirdNodes - 1 10 2 9 3 8 4 7 5 6 
+22:47:51.515 [main] INFO  org.example.yeet.EvenWeirderNodes - 6 6 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
