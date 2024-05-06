@@ -1,1 +1,2 @@
-22:47:51.515 [main] INFO  org.example.yeet.EvenWeirderNodes - 6 6 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+14:55:51.597 [main] INFO  org.example.sortsearchalgs.binaryCompare.Test - Non-recursive: 307900 nanoseconds
+14:55:51.601 [main] INFO  org.example.sortsearchalgs.binaryCompare.Test - Recursive: 204800 nanoseconds

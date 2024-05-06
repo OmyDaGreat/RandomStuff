@@ -1,4 +1,4 @@
-package org.example.sortsearchalgs.better;
+package org.example.sortsearchalgs.mergeSort;
 
 import java.util.ArrayList;
 import java.util.concurrent.ExecutorService;
@@ -7,6 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 
 public class ThreadedMergeSortArrayList {
+	
+	private  ThreadedMergeSortArrayList() {};
 
     public static void mergeSort(ArrayList<Integer> array) {
 	    if (array.size() <= 1) {
@@ -32,6 +34,9 @@ public class ThreadedMergeSortArrayList {
 		    Thread.currentThread().interrupt();
 	    } catch (Exception e) {
 		    e.printStackTrace();
+	    } finally {
+		    assert executor != null;
+		    executor.close();
 	    }
     }
 

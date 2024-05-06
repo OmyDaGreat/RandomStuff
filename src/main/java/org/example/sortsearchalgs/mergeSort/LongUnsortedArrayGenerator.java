@@ -1,4 +1,4 @@
-package org.example.sortsearchalgs.better;
+package org.example.sortsearchalgs.mergeSort;
 
 import java.util.*;
 
