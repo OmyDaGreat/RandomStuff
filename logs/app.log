@@ -1,2 +1,6 @@
-14:55:51.597 [main] INFO  org.example.sortsearchalgs.binaryCompare.Test - Non-recursive: 307900 nanoseconds
-14:55:51.601 [main] INFO  org.example.sortsearchalgs.binaryCompare.Test - Recursive: 204800 nanoseconds
+19:04:10.397 [main] INFO  org.example.yeet.RomanToInt - 50
+19:04:10.399 [main] INFO  org.example.yeet.RomanToInt - 5
+19:04:10.399 [main] INFO  org.example.yeet.RomanToInt - 1
+19:04:10.399 [main] INFO  org.example.yeet.RomanToInt - 1
+19:04:10.399 [main] INFO  org.example.yeet.RomanToInt - 1
+19:04:10.400 [main] INFO  org.example.yeet.RomanToInt - 58
