@@ -37,3 +37,5 @@ z
 Jsrc/main/java/org/example/sortsearchalgs/mergeSort/MergeSortArrayList.java,e\e\ee723df1f5d0a992a13a7b23fa1017fa8fe9ed10
 Z
 *src/main/java/org/example/yeet/Median.java,5\8\587f3e3503e95198f44a87249c44fd444f7f1092
+a
+1src/main/java/org/example/yeet/LongestPrefix.java,7\9\790ba9340eb1063b8e63a74ca1162a44ff3fc01e
