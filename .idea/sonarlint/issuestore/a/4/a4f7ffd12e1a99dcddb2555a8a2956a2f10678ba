@@ -1,0 +1,15 @@
+
+W
+java:S1118":Add a private constructor to hide the implicit public one.(¾²Æù8Èéœãú1
+’
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(ïÓ³£üÿÿÿÿJ$ff60dd24-ceed-4a0b-b98f-1cec5b3ec78c
+
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(ì³ŠØJ$c189efce-dec5-403d-8e7e-25af41651505
+™
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(íÆ˜û8£ƒûâú1J$f1483cdf-43fd-4078-bda7-6c8e86ddbeb9
+”
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(íÆ˜û8êËüâú1J$c4d511ab-4b6e-424e-927d-877067018868
+™
+java:S4276"VRefactor this code to use the more specialised Functional Interface 'IntUnaryOperator'(…âœ½8€à’ãú1J$c6ead59d-6033-4bf4-9401-1db535f963ca
+”
+java:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(…âœ½8€à’ãú1J$ddc348cc-63a6-4e06-a2d5-d6635e0fdf3e

@@ -1,1 +1,10 @@
-18:21:14.645 [main] INFO  org.example.yeet.ValidParen - true
+14:08:33.923 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+14:08:33.925 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
+14:08:33.925 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+14:08:33.925 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
+14:08:33.925 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
+14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
+14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
