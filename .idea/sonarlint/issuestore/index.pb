@@ -57,3 +57,5 @@ m
 lombok.config,8\2\823fe80d2650ec87c2614800da17ca3a55af96a9
 <
 logs/app.log,1\9\19551365d5d85d08cf06f31af46de9860d5f5240
+B
+.gitpod.Dockerfile,0\9\09856d0a48229fa98219a833cee9652afc005c9c

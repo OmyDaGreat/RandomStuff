@@ -1,10 +1,10 @@
-14:08:33.923 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
-14:08:33.925 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
-14:08:33.925 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
-14:08:33.925 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
-14:08:33.925 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
-14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
-14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
-14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
-14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
-14:08:33.926 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
+16:50:58.857 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+16:50:58.860 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
+16:50:58.860 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+16:50:58.860 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
+16:50:58.860 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+16:50:58.860 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
+16:50:58.860 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+16:50:58.860 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
+16:50:58.860 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is even
+16:50:58.860 [main] INFO  org.example.renamedStuff.test.BoolExtensionTest - x is not even
